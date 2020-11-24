@@ -1,0 +1,28 @@
+{
+  "name": "01-node-basics",
+  "version": "1.0.0",
+  "description": "homework1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kattarina25/goit-node.git"
+  },
+  "author": "Kateryna Vodolazova <katerina.vodolazova2010@yandex.ua>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kattarina25/goit-node/issues"
+  },
+  "homepage": "https://github.com/kattarina25/goit-node#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "yargs": "^16.1.1"
+  }
+}
