@@ -1,8 +1,20 @@
 {
-  "name": "01-node-basics",
+  "name": "02-express",
   "version": "1.0.0",
-  "description": "homework1",
+  "description": "homework2",
   "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "joi": "^17.3.0",
+    "morgan": "^1.10.0",
+    "yargs": "^16.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
   "scripts": {
     "start": "node ./index.js",
     "dev": "nodemon ./index.js",
@@ -17,12 +29,5 @@
   "bugs": {
     "url": "https://github.com/kattarina25/goit-node/issues"
   },
-  "homepage": "https://github.com/kattarina25/goit-node#readme",
-  "devDependencies": {
-    "nodemon": "^2.0.6"
-  },
-  "dependencies": {
-    "fs": "0.0.1-security",
-    "yargs": "^16.1.1"
-  }
+  "homepage": "https://github.com/kattarina25/goit-node#readme"
 }

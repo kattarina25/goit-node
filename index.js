@@ -31,3 +31,4 @@ function invokeAction({ action, id, name, email, phone }) {
 }
 
 invokeAction(argv);
+require("./api/start");
